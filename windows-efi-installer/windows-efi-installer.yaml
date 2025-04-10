@@ -34,7 +34,7 @@ spec:
     - name: autounattendXMLConfigMapsURL
       description: Download URL to ConfigMaps with Windows autounattend.xml file. ConfigMap is used for automated installation of Windows from ISO file. Specify the correct ConfigMap name in `autounattendConfigMapName` parameter.
       type: string
-      default: https://raw.githubusercontent.com/shaunhofer/ocp/refs/heads/main/configmap/windows11-autounattend
+      default: https://raw.githubusercontent.com/shaunhofer/ocp/refs/heads/main/windows-efi-installer/configmap/windows11-autounattend
     - name: instanceTypeName
       type: string
       description: Name of VirtualMachineClusterInstancetype object
